@@ -223,7 +223,8 @@ Simulation behavior depends on the configured components, network access, and si
 
 ## 📈 Expected Results
 
-After successful configuration, the system should be able to demonstrate the implemented features, such as:
+After successful configuration, the system should be able to demonstrate the implemented features, such as:<img width="1440" height="900" alt="Screenshot 2026-11-01 at 12 56 32 AM" src="https://github.com/user-attachments/assets/87fa8b3f-b4e6-4335-a871-825a8dd7325b" />
+
 
 - Sensor readings collected by the ESP32.
 - Charging-bay status updates.
@@ -232,38 +233,10 @@ After successful configuration, the system should be able to demonstrate the imp
 - Edge AI predictions and optimization outputs, if enabled and validated.
 - Remote commands, if the RPC path is configured and tested.
 
-Use screenshots of the running simulator, serial monitor, and ThingsBoard dashboard in this section to document actual results.
 
-## 🔬 Future Improvements
-
-- Validate the Edge AI model using representative charging-demand data.
-- Add a documented model evaluation process with appropriate metrics.
-- Improve fault detection and sensor calibration.
-- Implement robust MQTT reconnection and offline buffering.
-- Add station-wide load aggregation across multiple bays.
-- Evaluate remote-control behavior under network failure.
-- Improve dashboard alerts and overload notifications.
-- Test the system on physical hardware under controlled conditions.
-
-## ⚠️ Limitations
-
-- Sensor readings depend on sensor accuracy and calibration.
-- Simulation results may not reflect real charging-station electrical behavior.
-- Prediction performance must be evaluated using measured or representative data.
-- Station-wide optimization requires data from all relevant bays and a defined aggregation or coordination mechanism.
-- This prototype is for monitoring and experimentation; it should not directly control high-power EV charging equipment without appropriate electrical protection, isolation, safety interlocks, and engineering validation.
-
-## 👨‍💻 Author
 
 **Bharanidharan R.**
 
 - GitHub: [Bharani-dev](https://github.com/Bharani-dev)
 - LinkedIn: [bharanidharan-tech](https://www.linkedin.com/in/bharanidharan-tech/)
 
-## 📄 License
-
-Choose a license before distributing the project. For example, the MIT License permits reuse with attribution, subject to its terms. Add a `LICENSE` file to the repository if you choose MIT.
-
----
-
-*An embedded IoT project exploring ESP32-based charging-bay monitoring, Edge AI-assisted prediction, and cloud-connected charging management.*
